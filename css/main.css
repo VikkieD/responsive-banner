@@ -1,56 +1,46 @@
 html {
-  margin: 0;
-  display: inline-block;
-  font-family: Georgia, sans-serif;
-}
-
-div {
+  font-family: Georgia, serif;
   background-color: #495562;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
+  color: #efefef;
 }
 
 .banner {
-  position: relative;
   max-height: 500px;
-  background-image: linear-gradient(to bottom, #97a49b, rgba(73, 85, 98, .9));
 }
 
 .banner-content {
   color: #fff;
 }
 
-.button {
-  text-align: inherit;
-  text-decoration: none;
-}
-
 .btn-ghost {
   background-color: transparent;
   color: #fff;
-  border-color: #efefef;
-}
-
-@media only screen and (min-width: 38em) {
-
-  .banner {
-    position: relative;
-  }
-
-  .banner-content {
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-  }
+  border-color: #97a49b;
 }
 
 @media only screen and (min-width: 60em) {
 
+  .wrapper {
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
+    max-height: 500px;
+  }
+
+  .banner {
+    position: absolute;
+    top: 70%;
+    background-image: linear-gradient(to top, #495562, rgba(73, 85, 98, .2));
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
+  .wrapper {
+    max-width: 1500px;
+  }
 }
