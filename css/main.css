@@ -1,0 +1,28 @@
+html {
+  margin: 0;
+  display: inline-block;
+}
+
+a {
+  text-align: center;
+  border-radius: 4px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  color: #fff;
+}
+
+.button {
+  text-align: inherit;
+  text-decoration: none;
+}
