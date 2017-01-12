@@ -15,6 +15,7 @@ a {
 
 .banner {
   position: relative;
+  max-height: 500px;
 }
 
 .banner-content {
