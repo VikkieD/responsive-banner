@@ -1,6 +1,7 @@
 html {
   margin: 0;
   display: inline-block;
+  font-family: Georgia, sans-serif;
 }
 
 div {
@@ -15,7 +16,7 @@ div {
 .banner {
   position: relative;
   max-height: 500px;
-  background-image: linear-gradient();
+  background-image: linear-gradient(to bottom, #97a49b, rgba(73, 85, 98, .9));
 }
 
 .banner-content {
@@ -30,11 +31,20 @@ div {
 .btn-ghost {
   background-color: transparent;
   color: #fff;
-  border-color: #fff;
+  border-color: #efefef;
 }
 
 @media only screen and (min-width: 38em) {
 
+  .banner {
+    position: relative;
+  }
+
+  .banner-content {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
