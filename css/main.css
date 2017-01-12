@@ -3,9 +3,8 @@ html {
   display: inline-block;
 }
 
-a {
-  text-align: center;
-  border-radius: 4px;
+div {
+  background-color: #495562;
 }
 
 .img-flex {
@@ -16,14 +15,32 @@ a {
 .banner {
   position: relative;
   max-height: 500px;
+  background-image: linear-gradient();
 }
 
 .banner-content {
-  position: absolute;
   color: #fff;
 }
 
 .button {
   text-align: inherit;
   text-decoration: none;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
